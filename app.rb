@@ -15,7 +15,8 @@ class App < Sinatra::Base
   end
 
   get '/:number1/:number2' do
-    
+    :number1*:number2
+    #output the result
 end
 
 end
