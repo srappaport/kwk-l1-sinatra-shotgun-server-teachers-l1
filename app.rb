@@ -15,9 +15,9 @@ class App < Sinatra::Base
   end
 
   get '/:number1/:number2' do
-    n1 = params[:number1].to_i
-    n2 = params[:number2].to_i
-    "#{n1*n2}"
+    @n1 = params[:number1].to_i
+    @n2 = params[:number2].to_i
+    "#{@n1*@n2}"
   end
 
 end
