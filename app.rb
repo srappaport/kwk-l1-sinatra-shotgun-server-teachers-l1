@@ -10,4 +10,11 @@ class App < Sinatra::Base
     "Hello Colin"
   end 
 
+  get '/blog' do 
+    "the text you wrote"
+  end 
+
+  get '/:number1/:number2'
+end
+
 end
