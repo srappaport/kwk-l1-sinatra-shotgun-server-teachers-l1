@@ -14,7 +14,8 @@ class App < Sinatra::Base
     "the text you wrote"
   end
 
-  get '/:number1/:number2/:number3' do
+  get '/:number1/:number2' do
+    
 end
 
 end
