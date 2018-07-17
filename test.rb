@@ -12,4 +12,5 @@ array = ["snake", "rat", "cat", "dog"]
 array.each do |animal|
   if animal[0] == "s"
 	puts animal
+end
 end
